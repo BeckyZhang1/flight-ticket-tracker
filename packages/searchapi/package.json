@@ -1,0 +1,13 @@
+{
+  "name": "@flight/searchapi",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@flight/contracts": "workspace:*",
+    "@flight/domain": "workspace:*"
+  }
+}
